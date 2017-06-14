@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<PrivateMessageScanner version="1.0364">
+  <Item>
+    <Name>barnporr</Name>
+    <Level>7</Level>
+    <Enable enable="true"/>
+    <RestrictStart enable="false"/>
+    <RestrictStop enable="false"/>
+    <Action>0</Action>
+    <Reason>not in here!</Reason>
+  </Item>
+  <Item>
+    <Name>preteen</Name>
+    <Level>7</Level>
+    <Enable enable="true"/>
+    <RestrictStart enable="false"/>
+    <RestrictStop enable="false"/>
+    <Action>0</Action>
+    <Reason>go away!</Reason>
+  </Item>
+</PrivateMessageScanner>

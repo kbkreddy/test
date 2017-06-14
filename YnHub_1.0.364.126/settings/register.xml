@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Register version="1.0364">
+  <Host enable="true">
+    <Name>GwHublist</Name>
+    <Description>http://www.gwhublist.com</Description>
+    <Host>dc.gwhublist.com</Host>
+    <Port>2501</Port>
+    <LastRun>2016-08-13 13:09:34</LastRun>
+    <MayConnectToOtherUsers enable="false"/>
+    <BotNickPattern enable="false"/>
+    <BotIPPattern enable="false"/>
+    <UpdateBotIPWithDNS enable="false"/>
+    <SupportsNmdcs enable="true"/>
+  </Host>
+  <Host enable="true">
+    <Name>publichublist</Name>
+    <Description>http://www.publichublist.com/</Description>
+    <Host>reg.publichublist.com</Host>
+    <Port>2501</Port>
+    <LastRun>2016-08-13 13:09:34</LastRun>
+    <MayConnectToOtherUsers enable="false"/>
+    <BotNickPattern enable="false"/>
+    <BotIPPattern enable="false"/>
+    <UpdateBotIPWithDNS enable="false"/>
+    <SupportsNmdcs enable="false"/>
+  </Host>
+</Register>

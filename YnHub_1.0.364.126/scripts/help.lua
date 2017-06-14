@@ -1,0 +1,30 @@
+--------------------------------------------------
+--	LUA inside YnHub
+--------------------------------------------------
+--	user.
+---------
+--	sNick						-- User nick name
+--	sIP						-- User ip
+--	bOperator					-- User have operator status
+--	iProfileNumber					-- User profile level number
+--------------------------------------------------
+--	function
+---------
+--	OnTimer()					-- Time loop every one second
+--	UserConnected( user )				-- User conneted to the hub
+--	UserDisconnected( user )			-- User disconnects from the hub
+--	ChatArrival( user, sData )			-- message from mainchat
+--------------------------------------------------
+--	core.
+---------
+--	Disconnect( sNick )				-- disconnects user from hub;
+--	Disconnect( sNick, sMessage )			-- disconnects user from hub with reason message
+--------------------------------------------------
+--	SendToAll( sNick, sMessage );
+--	SendToNick( sNick, sMessage );
+--	print( sMessage );				-- shows message in debug Feed
+--------------------------------------------------
+--	s						-- string
+--	i						-- integer
+--	b						-- boolean
+--	t						-- table

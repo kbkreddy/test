@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Chatrooms version="1.0364">
+  <ChatRoom>
+    <Name>#[Op-Chat]</Name>
+    <Feed enable="true"/>
+    <Locked enable="true"/>
+    <IsOperator enable="true"/>
+    <WelcomeMessage/>
+    <Comment>Chatroom for operators (+feed chatroom)</Comment>
+    <Visibles/>
+    <MayJoins/>
+    <AutoJoins>
+      <Profile>OP</Profile>
+      <Profile>Owner</Profile>
+      <Profile>SU</Profile>
+    </AutoJoins>
+    <Admins/>
+  </ChatRoom>
+  <ChatRoom>
+    <Name>#[Public]</Name>
+    <Feed enable="false"/>
+    <Locked enable="false"/>
+    <IsOperator enable="true"/>
+    <WelcomeMessage>This is a public chatroom, welcome to join our discussion &lt;nick&gt;!</WelcomeMessage>
+    <Comment>Test of a public chatroom</Comment>
+    <Visibles/>
+    <MayJoins>
+      <Profile>Regular</Profile>
+      <Profile>Registered</Profile>
+    </MayJoins>
+    <AutoJoins/>
+    <Admins>
+      <Profile>OP</Profile>
+      <Profile>Owner</Profile>
+      <Profile>SU</Profile>
+    </Admins>
+  </ChatRoom>
+  <ChatRoom>
+    <Name>#[VIP-Chat]</Name>
+    <Feed enable="false"/>
+    <Locked enable="false"/>
+    <IsOperator enable="true"/>
+    <WelcomeMessage>This is a VIP chatroom, welcome to join our discussion &lt;nick&gt;!</WelcomeMessage>
+    <Comment>Test of a private chat</Comment>
+    <Visibles/>
+    <MayJoins/>
+    <AutoJoins>
+      <Profile>VIP</Profile>
+    </AutoJoins>
+    <Admins>
+      <Profile>OP</Profile>
+      <Profile>Owner</Profile>
+      <Profile>SU</Profile>
+    </Admins>
+  </ChatRoom>
+</Chatrooms>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Bans version="1.0364">
+  <Nick>
+    <Ban>
+      <Overrideable enable="false"/>
+      <Nick>*fuck*</Nick>
+      <BannedBy>Yoshi</BannedBy>
+      <Reason>This isn&apos;t a word you need in your nick</Reason>
+      <Issued>2004-11-16 00:38:56</Issued>
+      <Expires>[Permanent]</Expires>
+      <LastUsed>2004-11-29 22:55:27</LastUsed>
+    </Ban>
+    <Ban>
+      <Overrideable enable="false"/>
+      <Nick>*hitler*</Nick>
+      <BannedBy>Yoshi</BannedBy>
+      <Reason>This isn&apos;t a word you need in your nick</Reason>
+      <Issued>2004-11-16 00:36:37</Issued>
+      <Expires>[Permanent]</Expires>
+      <LastUsed>2004-11-29 22:55:35</LastUsed>
+    </Ban>
+    <Ban>
+      <Overrideable enable="false"/>
+      <Nick>n00b</Nick>
+      <BannedBy>Yoshi</BannedBy>
+      <Reason>Demoban</Reason>
+      <Issued>2004-12-22 15:59:03</Issued>
+      <Expires>[Permanent]</Expires>
+      <LastUsed>[Never]</LastUsed>
+    </Ban>
+  </Nick>
+  <IP>
+    <Ban>
+      <Overrideable enable="false"/>
+      <IP>192.168.0.99</IP>
+      <BannedBy>YnHub GUI</BannedBy>
+      <Reason>This is a demoban</Reason>
+      <Issued>2004-12-22 15:55:46</Issued>
+      <Expires>[Permanent]</Expires>
+      <LastUsed>[Never]</LastUsed>
+    </Ban>
+    <Ban>
+      <Overrideable enable="false"/>
+      <IP>192.168.99.*</IP>
+      <BannedBy>YnHub GUI</BannedBy>
+      <Reason>This is a demoban</Reason>
+      <Issued>2004-12-22 15:55:37</Issued>
+      <Expires>[Permanent]</Expires>
+      <LastUsed>[Never]</LastUsed>
+    </Ban>
+  </IP>
+  <DNS>
+    <Ban>
+      <Overrideable enable="false"/>
+      <DNS>*.????-2023-73746f12.cust.bredbandsbolaget.se</DNS>
+      <BannedBy>YnHub GUI</BannedBy>
+      <Reason>DNS ban using ? as wildcard</Reason>
+      <Issued>2004-12-22 15:57:04</Issued>
+      <Expires>[Permanent]</Expires>
+      <LastUsed>[Never]</LastUsed>
+    </Ban>
+  </DNS>
+  <Client>
+    <Ban>
+      <Overrideable enable="false"/>
+      <Client>DC++0.01*</Client>
+      <BannedBy>YnHub GUI</BannedBy>
+      <Reason>Demoban client</Reason>
+      <Issued>2004-12-26 03:22:59</Issued>
+      <Expires>[Permanent]</Expires>
+      <LastUsed>[Never]</LastUsed>
+    </Ban>
+  </Client>
+</Bans>

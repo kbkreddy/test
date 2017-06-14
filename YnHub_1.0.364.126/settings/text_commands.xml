@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TextCommands version="1.0364">
+  <TextCommand>
+    <Name>ConnectMessage</Name>
+    <OverrideMuted enable="false"/>
+    <Enabled enable="true"/>
+    <EditLevel>3</EditLevel>
+    <AccessMinLevel>0</AccessMinLevel>
+    <AccessMaxLevel>9</AccessMaxLevel>
+    <ShowMinLevel>0</ShowMinLevel>
+    <ShowMaxLevel>9</ShowMaxLevel>
+    <MainchatCommandVisibility>1</MainchatCommandVisibility>
+    <Schedule>0</Schedule>
+    <Autorun>2</Autorun>
+    <BroadCast>0</BroadCast>
+    <MessageType>3</MessageType>
+    <Parameters>0</Parameters>
+    <Content>&lt;-CORE-&gt; Current user count: &lt;users&gt; after &lt;uptime&gt; uptime|&lt;-CORE-&gt; Current sharesize is: &lt;share&gt;|&lt;-CORE-&gt; Current sharepeak is: &lt;sharepeak&gt;|&lt;-CORE-&gt; Current uptimepeak is: &lt;uptimepeak&gt;|&lt;-CORE-&gt; Current userpeakrecord is: &lt;userpeakrecord&gt;|&lt;-CORE-&gt; Current userpeak is: &lt;userpeak&gt;|</Content>
+  </TextCommand>
+  <TextCommand>
+    <Name>Information</Name>
+    <OverrideMuted enable="true"/>
+    <Enabled enable="true"/>
+    <EditLevel>3</EditLevel>
+    <AccessMinLevel>0</AccessMinLevel>
+    <AccessMaxLevel>9</AccessMaxLevel>
+    <ShowMinLevel>0</ShowMinLevel>
+    <ShowMaxLevel>9</ShowMaxLevel>
+    <MainchatCommandVisibility>1</MainchatCommandVisibility>
+    <Schedule>0</Schedule>
+    <Autorun>0</Autorun>
+    <BroadCast>0</BroadCast>
+    <MessageType>0</MessageType>
+    <Parameters>0</Parameters>
+    <Content>Welcome to the world of YnHub</Content>
+  </TextCommand>
+  <TextCommand>
+    <Name>Me</Name>
+    <OverrideMuted enable="false"/>
+    <Enabled enable="true"/>
+    <EditLevel>3</EditLevel>
+    <AccessMinLevel>0</AccessMinLevel>
+    <AccessMaxLevel>9</AccessMaxLevel>
+    <ShowMinLevel>0</ShowMinLevel>
+    <ShowMaxLevel>9</ShowMaxLevel>
+    <MainchatCommandVisibility>0</MainchatCommandVisibility>
+    <Schedule>0</Schedule>
+    <Autorun>0</Autorun>
+    <BroadCast>0</BroadCast>
+    <MessageType>3</MessageType>
+    <Parameters>1</Parameters>
+    <Content>** &lt;nick&gt; &lt;parm1&gt;|</Content>
+  </TextCommand>
+  <TextCommand>
+    <Name>Motd</Name>
+    <OverrideMuted enable="false"/>
+    <Enabled enable="true"/>
+    <EditLevel>3</EditLevel>
+    <AccessMinLevel>0</AccessMinLevel>
+    <AccessMaxLevel>9</AccessMaxLevel>
+    <ShowMinLevel>0</ShowMinLevel>
+    <ShowMaxLevel>9</ShowMaxLevel>
+    <MainchatCommandVisibility>1</MainchatCommandVisibility>
+    <Schedule>0</Schedule>
+    <Autorun>2</Autorun>
+    <BroadCast>0</BroadCast>
+    <MessageType>3</MessageType>
+    <Parameters>0</Parameters>
+    <Content>&lt;-MOTD-&gt; This is the message of the day|</Content>
+  </TextCommand>
+  <TextCommand>
+    <Name>MyIP</Name>
+    <OverrideMuted enable="false"/>
+    <Enabled enable="true"/>
+    <EditLevel>3</EditLevel>
+    <AccessMinLevel>0</AccessMinLevel>
+    <AccessMaxLevel>9</AccessMaxLevel>
+    <ShowMinLevel>0</ShowMinLevel>
+    <ShowMaxLevel>9</ShowMaxLevel>
+    <MainchatCommandVisibility>1</MainchatCommandVisibility>
+    <Schedule>0</Schedule>
+    <Autorun>0</Autorun>
+    <BroadCast>0</BroadCast>
+    <MessageType>0</MessageType>
+    <Parameters>0</Parameters>
+    <Content>Your current IP is &lt;ip&gt;.</Content>
+  </TextCommand>
+  <TextCommand>
+    <Name>Report</Name>
+    <OverrideMuted enable="false"/>
+    <Enabled enable="true"/>
+    <EditLevel>10</EditLevel>
+    <AccessMinLevel>0</AccessMinLevel>
+    <AccessMaxLevel>9</AccessMaxLevel>
+    <ShowMinLevel>0</ShowMinLevel>
+    <ShowMaxLevel>9</ShowMaxLevel>
+    <MainchatCommandVisibility>1</MainchatCommandVisibility>
+    <Schedule>0</Schedule>
+    <Autorun>0</Autorun>
+    <BroadCast>3</BroadCast>
+    <MessageType>0</MessageType>
+    <Parameters>1</Parameters>
+    <Content>Report from &lt;nick&gt;: &lt;parm1&gt;&lt;[self]&gt;Report sent&lt;/[self]&gt;</Content>
+  </TextCommand>
+  <TextCommand>
+    <Name>ScheduledInformation</Name>
+    <OverrideMuted enable="false"/>
+    <Enabled enable="false"/>
+    <EditLevel>9</EditLevel>
+    <AccessMinLevel>10</AccessMinLevel>
+    <AccessMaxLevel>9</AccessMaxLevel>
+    <ShowMinLevel>0</ShowMinLevel>
+    <ShowMaxLevel>9</ShowMaxLevel>
+    <MainchatCommandVisibility>1</MainchatCommandVisibility>
+    <Schedule>360</Schedule>
+    <Autorun>0</Autorun>
+    <BroadCast>2</BroadCast>
+    <MessageType>1</MessageType>
+    <Parameters>0</Parameters>
+    <Content>This is a scheduled message, welcome to the world of YnHub</Content>
+  </TextCommand>
+  <TextCommand>
+    <Name>Usercommands</Name>
+    <OverrideMuted enable="false"/>
+    <Enabled enable="true"/>
+    <EditLevel>10</EditLevel>
+    <AccessMinLevel>0</AccessMinLevel>
+    <AccessMaxLevel>9</AccessMaxLevel>
+    <ShowMinLevel>0</ShowMinLevel>
+    <ShowMaxLevel>9</ShowMaxLevel>
+    <MainchatCommandVisibility>1</MainchatCommandVisibility>
+    <Schedule>0</Schedule>
+    <Autorun>2</Autorun>
+    <BroadCast>0</BroadCast>
+    <MessageType>3</MessageType>
+    <Parameters>0</Parameters>
+    <Content>$UserCommand 255 7|$UserCommand 0 3|$UserCommand 1 3 Hub commands\Hubstats$&lt;%[mynick]&gt; +stats&amp;#124;|$UserCommand 1 3 Hub commands\Who was first in?$&lt;%[mynick]&gt; +firstin&amp;#124;|$UserCommand 1 3 Hub commands\Show topic$&lt;%[mynick]&gt; +showtopic&amp;#124;|</Content>
+  </TextCommand>
+</TextCommands>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<MainChatScanner version="1.0364">
+  <Item>
+    <Name>fuck</Name>
+    <Enable enable="true"/>
+    <RestrictStart enable="true"/>
+    <RestrictStop enable="false"/>
+    <ExpandStart enable="false"/>
+    <ExpandStop enable="true"/>
+    <Actions>
+      <Action>
+        <Level>10</Level>
+        <Action>0</Action>
+        <Replace>*f-word*</Replace>
+        <UseTime enable="true"/>
+        <Start>21:00:01</Start>
+        <Stop>23:00:00</Stop>
+      </Action>
+      <Action>
+        <Level>10</Level>
+        <Action>3</Action>
+        <Replace>Now I almost said the f-word, I really shouldn&apos;t have done that!</Replace>
+        <UseTime enable="true"/>
+        <Start>08:00:00</Start>
+        <Stop>21:00:00</Stop>
+      </Action>
+    </Actions>
+  </Item>
+  <Item>
+    <Name>hmm</Name>
+    <Enable enable="true"/>
+    <RestrictStart enable="true"/>
+    <RestrictStop enable="true"/>
+    <ExpandStart enable="false"/>
+    <ExpandStop enable="false"/>
+    <Actions>
+      <Action>
+        <Level>10</Level>
+        <Action>0</Action>
+        <Replace>hmm|*thinking*|*&lt;nick&gt; thinking*|hmm</Replace>
+        <UseTime enable="false"/>
+        <Start>00:00:00</Start>
+        <Stop>23:59:59</Stop>
+      </Action>
+    </Actions>
+  </Item>
+  <Item>
+    <Name>Yoshi</Name>
+    <Enable enable="true"/>
+    <RestrictStart enable="true"/>
+    <RestrictStop enable="true"/>
+    <ExpandStart enable="false"/>
+    <ExpandStop enable="false"/>
+    <Actions>
+      <Action>
+        <Level>10</Level>
+        <Action>0</Action>
+        <Replace>Yoshi|Yoshi|Dino</Replace>
+        <UseTime enable="false"/>
+        <Start>00:00:00</Start>
+        <Stop>23:59:59</Stop>
+      </Action>
+    </Actions>
+  </Item>
+</MainChatScanner>

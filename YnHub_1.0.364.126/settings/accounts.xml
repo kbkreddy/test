@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Accounts version="1.0364">
+  <Account>
+    <Nick>Yoshi</Nick>
+    <Pass>1234</Pass>
+    <Profile>Owner</Profile>
+    <IPPattern>127.0.0.1</IPPattern>
+    <Owner>Yoshi</Owner>
+    <Created>2014-01-16 02:01:51</Created>
+    <CreatedBy>YnHub GUI</CreatedBy>
+    <OnJoin/>
+    <ExpireDate enable="false">2014-01-21 02:01:27</ExpireDate>
+    <LastChanged>2014-01-16 02:36:58</LastChanged>
+    <LastChangedBy>YnHub GUI</LastChangedBy>
+    <LastUsed>2014-01-16 02:33:15</LastUsed>
+    <LastSpoke>1899-12-30</LastSpoke>
+    <ShareHidden enable="false"/>
+    <UserHidden enable="false"/>
+    <Comment/>
+    <AccountStats>
+      <FirstUse>2014-01-16 02:02:15</FirstUse>
+      <Uptime>937691</Uptime>
+      <Kicks>0</Kicks>
+      <Bans>0</Bans>
+      <TimeBans>0</TimeBans>
+      <Redirects>0</Redirects>
+    </AccountStats>
+  </Account>
+</Accounts>

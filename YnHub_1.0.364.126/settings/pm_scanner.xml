@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<PrivateMessageScanner version="1.0364">
+  <Item>
+    <Name>fucking bitch</Name>
+    <Level>1</Level>
+    <Enable enable="true"/>
+    <RestrictStart enable="true"/>
+    <RestrictStop enable="true"/>
+    <Action>0</Action>
+    <Reason>You&apos;re not allowed to say &quot;fucking bitch&quot;.</Reason>
+  </Item>
+</PrivateMessageScanner>

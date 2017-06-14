@@ -1,0 +1,84 @@
+*-----------------------------------------------------------------------------------------------* 
+                                            1.0363
+*-----------------------------------------------------------------------------------------------*
+
+
+* Added *
+[31]	Hub icon support for hublist
+[31]	Hub owner support for hublist
+[31]	Hub Category support for hublist
+[31]	Hub email support for hublist
+[31]	Hub webpage support for hublist
+[31]	Warning message before start the hub manualy. 
+[31]	'Autostart hub' is auto disabled when new hubsoft is added to the folder
+[31]	Max authorizing to the GUI Security settings
+[31]	Max authorizing same IP to the GUI Security settings 
+[31]	Max authorizing is possible now disable in the GUI Security settings
+[31]	Max authorizing same IP is possible now disable in the GUI Security settings
+[31]	possible now change Hub bot description
+[31]	possible now change Hub bot e-mail
+[31]	PublicHublist hub registration server to the Hublists settings
+[50]	Warning messages in the GUI feed if there is some secure issues when you start hub manualy.
+[50]	Extreme mode to the Work pace
+[137]	Lua 5.1 support ***Beta 
+[137]	hello.lua example script 
+[137]	Greetings.lua example script 
+[137]	Bye.lua example script 
+[137]	lua script editor ***beta
+[137]	lua5.1.dll
+
+* Fixed * 
+[50]	Hub bot description not loaded from saved settings
+[50]	Hub bot e-mail not loaded from saved settings
+[50]	$HubName is send now with topic even if user not fully log in (not sended when hub is reg only or password protected)
+[317]	text commands was not possible save
+[317]	Show announcement and greet only if user has been away for X time
+[397]	Some buffer stuff
+[717]	TE-exploit of $Search fixed.
+[723]	Some login problems.
+
+* Changed *
+[31]	$HubName is send now with topic even if user not fully log in
+
+* Disabled *
+[31]	[440] 1.0362 possible now connect without $GetNickList|
+[31]	[253] Comport support **** not fully finished
+
+*-----------------------------------------------------------------------------------------------* 
+                                            1.0362
+*-----------------------------------------------------------------------------------------------*
+
+
+* Fixed *
+[     ] Buffer overrun in mainchat
+[235] Expire date in Accounts for windows 7 
+[344] Latest MySQL server (5.6.15) now supported.
+[348] Some login problems.
+[357] problems in Search scanner Reason
+[432] When changing minshare/maxshare/ratio/etc through GUI by typing in a number.
+[444] Memory Leak when Clicking 'Try Connect' button in User stats.
+[444] Memory Leak when clicking 'Load settings now' button
+[444] Some buffer full problems
+[482] Illegal character $ can not be used in chat
+
+* Added * 
+[     ] May allow use DHT support in hub
+[253] Comport support **** not fully finished
+[306] Show announcement and greet only if user has been away for X time ('requested by CyberAL')
+[328] Override IP pattern (only in 328)
+[328] Error Feed message for Override IP pattern (only in 328)
+[334] ZPipe0 support.
+[357] feed message when a user with an ip-locked account tries to enter the hub with the wrong IP ('requested by CyberAL') 
+[399] Max amount of same IP is allowed connect (default is 10). ('requested by zdsadasd') possible change in .xml settings 
+[751] hy command for history
+[751] <userpeak> for the Text commands
+[751] <userpeakrecord> for the Text commands
+[751] <uptimepeak> for the Text commands
+[751] <sharepeak> for the Text commands
+
+* Changed *
+[235] DHT support is enabled now by defauld if disabled then some users may not connect
+[344] nick max lenght is now 64 in MySQL database.
+[440] possible now connect without $GetNickList|  ('informed by Hades')
+[751] some changes in mainchat buffer
+[898] differend random char generator for $Lock

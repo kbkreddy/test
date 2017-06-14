@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ISPs version="1.0364">
+  <ISP>
+    <Name>BBB</Name>
+    <Description/>
+    <Prefix>[BBB]</Prefix>
+    <MinShare enable="true">21474836480</MinShare>
+    <MaxShare enable="true">10995116277760</MaxShare>
+    <MaxHubs enable="true">5</MaxHubs>
+    <MinSlots enable="true">3</MinSlots>
+    <MaxSlots enable="true">20</MaxSlots>
+    <SlotRatio enable="true">3</SlotRatio>
+    <MayBeInPassiveMode enable="true"/>
+    <AllowTagLessToByPass enable="false"/>
+    <Range>
+      <IP>195.54.101.*</IP>
+      <IP>195.54.107.*</IP>
+      <IP>195.54.110.*</IP>
+      <IP>213.115.*</IP>
+      <IP>213.212.*</IP>
+    </Range>
+  </ISP>
+</ISPs>
